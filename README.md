@@ -25,4 +25,4 @@ Enter a Candidate
 Enter Duration , Start Date , End Date of Internship and then click Save Offer Letter Data and then click Generate Offer Letter
 Then project will generate the offer letter in backend using the template its been provided in backend . 
 
-![App Screenshot](https://raw.githubusercontent.com/pratham13103/OfferLetter_Verification/main/OfferLetter_Verificatio.png)
+![App Screenshot](https://raw.githubusercontent.com/pratham13103/OfferLetter_Verification/master/OfferLetter_Verificatio.png)
