@@ -1,0 +1,133 @@
+/* Ensure the background color is white */
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.header {
+  font-size: 32px; /* Increased header size */
+  font-weight: bold;
+  margin-bottom: 40px; /* Increased gap between header and card */
+  text-align: center;
+  color: #333;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.content {
+  text-align: center;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.input-field {
+  width: 100%; /* Ensures the field takes the full width */
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+
+/* Ensures the date pickers match the input fields' width */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  width: 100% !important;  /* Force the container to take 100% width */
+}
+
+.react-datepicker__input-container input {
+  width: 100% !important;  /* Force width on the input element */
+  padding: 12px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+
+.generate-button {
+  background-color: #ff4b5c; /* Solid red color */
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+h2 {
+  color: black;
+}
+
+.generate-button:hover {
+  background-color: #c0392b; /* Darker red color on hover */
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.view-link, .download-link {
+  color: #007bff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.view-link:hover, .download-link:hover {
+  text-decoration: underline;
+}
+
+.react-datepicker__close-icon {
+  background: gray !important;       /* Remove the blue background */
+  border: none !important;           /* Remove border if any */
+  padding: 0 !important;             /* Remove padding */
+  right: 10px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  cursor: pointer;
+  width: auto !important;            /* Prevent fixed size */
+  height: auto !important;
+}
+
+.react-datepicker__close-icon::after {
+  content: "×";
+  font-size: 20px;
+  color: white !important;
+  font-weight: bold;
+  display: inline-block;
+  background: none !important;      /* Remove any fallback background */
+}
